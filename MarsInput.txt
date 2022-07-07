@@ -1,0 +1,15 @@
+5 5
+(2,3, N) FFFFFFFFF
+(2,3, E) FFFFFFFFF
+(2,3, S) FFFFFFFFF
+(2,3, W) FFFFFFFFF
+(2,3, N)
+(2,3, N) R
+(2,3, N) RR
+(2,3, N) RRR
+(2,3, N) RRRR
+(2,3, N) 
+(2,3, N) L
+(2,3, N) LL
+(2,3, N) LLL
+(2,3, N) LLLL
