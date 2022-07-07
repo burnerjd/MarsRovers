@@ -16,7 +16,7 @@ python3 MarsRovers.py MarsInput.txt MarsInput2.txt
 ## Short design decision justifications
 
 - Task said an MxN grid, this is technically an (M+1)x(N+1) grid
-  - Task also gave an example where robots where at 0 and at N without being lost
+  - Task also gave an example where robots were at 0 and at N without being lost
 - Task didn't ask for multiple file support
   - It was a fairly simple add, and it allowed me to test a few more files a little easier
 - Regex is a little confusing in code
