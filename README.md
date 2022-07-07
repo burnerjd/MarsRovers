@@ -22,4 +22,4 @@ python3 MarsRovers.py MarsInput.txt MarsInput2.txt
 - Regex is a little confusing in code
   - It's also the best tool for the job here
 - File input, not stdin
-  - The exaple input looked a bit more like a file than an stdin
+  - The example input looked a bit more like a file than an stdin
