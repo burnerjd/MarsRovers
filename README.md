@@ -3,13 +3,13 @@ Requires Python3.6 or above
 
 Usage Example:
 ```
-Python3 MarsRovers.py MarsInput.txt
+python3 MarsRovers.py MarsInput.txt
 ```
 
 Can also be fed multiple input files
 
 ```
-Python3 MarsRovers.py MarsInput.txt MarsInput2.txt
+python3 MarsRovers.py MarsInput.txt MarsInput2.txt
 ```
 
 
