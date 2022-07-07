@@ -14,7 +14,7 @@ def main():
             width, height = extract_width_and_height(file.readline())
             robots = []
             for line in file:
-                robot, instructions = extract_start_instructions(line)
+                robot, instructions = extract_start_and_instructions(line)
                 for instruction in instructions:
                     if instruction == "F":
                         robot.forward(width, height)
@@ -54,7 +54,7 @@ def extract_width_and_height(first_line):
         return width, height
 
 
-def extract_start_instructions(line):
+def extract_start_and_instructions(line):
     # matches lines of the form (int, int, [N|E|S|W]) [FLR]*
     # doesn't care about whitespace, this is what the regex really excels at
     match = re.match("\((\d+)\s*,\s*(\d+)\s*,\s*([NSEW])\s*\)\s*([LRF]*)\n", line)
